@@ -47,8 +47,8 @@ const FlamesCalc = () => {
     }
     return (
         <div>
-            <input type="text" data-testid="input1" value={Input1} onChange={handleInput1} />
-            <input type="text" data-testid="input2" value={Input2} onChange={handleInput2} />
+            <input type="text" data-testid="input1" name="name1" value={Input1} onChange={handleInput1} />
+            <input type="text" data-testid="input2" name="name2" value={Input2} onChange={handleInput2} />
             <button data-testid="calculate_relationship" onClick={Calculate}>Calculate Relationship Future</button>
             <button data-testid="clear" onClick={Clear}>Clear</button>
             <h3 data-testid="answer">{answer}</h3>
